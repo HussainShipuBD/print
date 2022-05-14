@@ -1,0 +1,57 @@
+/*===== Medium Desktop =====*/
+@media only screen and (max-width: 1500px) {
+/* Common */
+
+/* Common */
+
+
+/* 404 page */
+._404page_title {
+    margin-bottom: 15px;
+    font-size: 28px;
+}  
+._404page_text {
+    font-size: 14px;
+    line-height: 18px;
+}
+._404page_button{
+    margin-top: 15px;
+}
+._404page_button a{
+    font-size: 16px;
+}
+/* 404 page */
+
+
+
+}
+/*===== Medium Desktop =====*/
+
+
+/*===== Ipad pro ======*/
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+
+}
+/*===== Ipad pro ======*/
+
+/*===== Ipad ====*/
+@media only screen and (min-width: 768px) and (max-width: 1050px) {
+
+    
+}
+/*===== Ipad ====*/
+
+/*===== Mobile =====*/   
+@media only screen and (max-width: 765px) {
+
+
+}
+
+@media only screen and (max-width: 350px) {
+
+
+} 
+/*===== Mobile =====*/
+
+
+
