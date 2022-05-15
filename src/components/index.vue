@@ -150,7 +150,7 @@
                         <div class="_our_ser_cards_all">
                             <div class="row">
                                 <!-- Item -->
-                                <div class="col-12 col-md-3 col-lg-3">
+                                <div class="col-6 col-md-3 col-lg-3">
                                     <div class="_our_ser_card">
                                         <div class="_our_ser_card_icon"><Icon type="ios-albums" /></div>
 
@@ -162,7 +162,7 @@
                                 </div>
                                 <!-- Item -->
                                 <!-- Item -->
-                                <div class="col-12 col-md-3 col-lg-3">
+                                <div class="col-6 col-md-3 col-lg-3">
                                     <div class="_our_ser_card">
                                         <div class="_our_ser_card_icon"><Icon type="ios-sunny" /></div>
 
@@ -174,7 +174,7 @@
                                 </div>
                                 <!-- Item -->
                                 <!-- Item -->
-                                <div class="col-12 col-md-3 col-lg-3">
+                                <div class="col-6 col-md-3 col-lg-3">
                                     <div class="_our_ser_card">
                                         <div class="_our_ser_card_icon"><Icon type="md-pint" /></div>
 
@@ -186,7 +186,7 @@
                                 </div>
                                 <!-- Item -->
                                 <!-- Item -->
-                                <div class="col-12 col-md-3 col-lg-3">
+                                <div class="col-6 col-md-3 col-lg-3">
                                     <div class="_our_ser_card">
                                         <div class="_our_ser_card_icon"><Icon type="md-planet" /></div>
 
@@ -233,7 +233,7 @@
                         <div class="_our_ser_cards_all">
                             <div class="row">
                                 <!-- Items -->
-                                <div class="col-6 col-md-4 col-lg-4"  v-for="(item,index) in 3" :key="index">
+                                <div class="col-12 col-md-4 col-lg-4"  v-for="(item,index) in 3" :key="index">
                                     <div class="_1card">
                                         <div class="_1card_slider">
                                             <Carousel loop>
@@ -327,7 +327,7 @@
                         <div class="_our_ser_cards_all">
                             <div class="row">
                                 <!-- Item -->
-                                <div class="col-12 col-md-3 col-lg-3">
+                                <div class="col-6 col-md-3 col-lg-3">
                                     <div class="_work_card">
                                         <div class="_work_card_icon"><Icon type="md-aperture" /></div>
 
@@ -339,7 +339,7 @@
                                 </div>
                                 <!-- Item -->
                                 <!-- Item -->
-                                <div class="col-12 col-md-3 col-lg-3">
+                                <div class="col-6 col-md-3 col-lg-3">
                                     <div class="_work_card _odd">
                                         <div class="_work_card_icon"><Icon type="ios-sunny" /></div>
 
@@ -351,7 +351,7 @@
                                 </div>
                                 <!-- Item -->
                                 <!-- Item -->
-                                <div class="col-12 col-md-3 col-lg-3">
+                                <div class="col-6 col-md-3 col-lg-3">
                                     <div class="_work_card">
                                         <div class="_work_card_icon"><Icon type="md-mic" /></div>
 
@@ -363,7 +363,7 @@
                                 </div>
                                 <!-- Item -->
                                 <!-- Item -->
-                                <div class="col-12 col-md-3 col-lg-3">
+                                <div class="col-6 col-md-3 col-lg-3">
                                     <div class="_work_card _odd">
                                         <div class="_work_card_icon"><Icon type="ios-medal" /></div>
 

@@ -154,6 +154,80 @@ color: var(--link);position: relative;padding-left: 20px;white-space: nowrap;}
     font-size: 12px;
     padding: 00 0 0 4px;
 }
+._mob_menu._mob_menu_open._mob_menu_scroll{
+    padding-top: 55px;
+}
+._mob_menu._mob_menu_open{
+    opacity: 1;
+    left: 0;
+}
+._mob_menu_close {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    z-index: 1;
+    color: var(--color2);
+    font-size: 25px;
+}
+._mob_menu {
+    position: fixed;
+    z-index: 111;
+    background: #fff;
+    width: 100%;
+    left: -100%;
+    top: 0;
+    opacity: 0;
+    transition: .5s all ease;
+    padding-top: 11px;
+    height: 100vh;
+    overflow: auto;
+}
+._mob_menu ._1menu_list_item {
+    display: block;
+    padding-right: 0;
+    padding: 0 15px 0;
+    margin-bottom: 13px;
+}
+._mob_menu ._1menu_list_text {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 25px;
+    color: var(--color2);
+    transition: .2s all ease;
+    display: block;
+    cursor: pointer;
+}
+._mob_menu ._1dropdown {
+    animation: none;
+    position: inherit;
+    background: transparent;
+    box-shadow: none;
+    transition: .2s all ease;
+    width: 100%;
+    z-index: 111;
+    top: 00;
+    display: none;
+}
+._mob_menu ._1menu_right {
+    flex: 0 0 auto;
+    max-width: 100%;
+    display: block;
+}
+._mob_menu ._1menu_right_icon li {
+    display: block;
+    font-size: 30px;
+    margin-right: 0;
+}
+._mob_menu ._1menu_right_icon {
+    padding: 0 16px 13px;
+}
+._mob_menu{}
+._1menu_button {
+    font-size: 20px;
+    color: var(--color2);
+    padding: 0 0 0 6px;
+    display: none;
+}
 /*======= 1.Menu end ======*/
 
 /*======= 2.Home ======*/
@@ -170,6 +244,9 @@ color: var(--link);position: relative;padding-left: 20px;white-space: nowrap;}
     height: auto;
 }
 ._artPlan_con{}
+._artPlanTwo ._artPlan_title {
+    color: #fff;
+}
 ._artPlan_title{font-size: 19px;font-weight: bold;color: var(--primary);}
 ._artPlan_subtitle{font-size: 45px;font-weight: bold;color: var(--color2);margin: 13px 0 0;}
 ._artPlan_des{font-size: 17px;line-height: 26px;color: var(--color3);margin: 21px 0 0;}
@@ -186,7 +263,7 @@ color: var(--link);position: relative;padding-left: 20px;white-space: nowrap;}
 ._artPlan_button{margin-top: 45px;}
 ._choose{background: var(--secondary);padding: 100px 0 100px;}
 ._choose_con{}
-._choose_title{text-align: center;font-size: 19px;color: var(--primary);font-weight: bold;}
+._choose_title{text-align: center;font-size: 19px;color: #fff;font-weight: bold;}
 ._choose_subtitle{color: #fff;text-align: center;font-size: 40px;margin: 12px 0 55px;}
 ._choose_cards_all{}
 ._choose_card{position: relative;}
@@ -368,7 +445,7 @@ right: 0;}
 }
 ._artPlan_number{
     font-size: 30px;
-    color: var(--primary);
+    color: #fff;
     margin: 10px 0 10px;
     font-weight: bold;
 }
@@ -414,11 +491,6 @@ right: 0;}
     margin: 12px 0 0;
 }
 ._work_card_details{}
-.{}
-.{}
-.{}
-.{}
-.{}
 /*======= 2.Home end ======*/
 
 /*======= 3.Footer ======*/

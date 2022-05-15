@@ -43,6 +43,175 @@
 
 /*===== Mobile =====*/   
 @media only screen and (max-width: 765px) {
+/* common */
+._1content {
+    padding-top: 54px;
+}
+._btn_large {
+    line-height: 40px !important;
+    height: 40px !important;
+    padding: 0px 14px !important;
+    font-size: 14px !important;
+}
+/* common */
+
+
+
+/* menu */
+._1menu_list {
+    display: none;
+}
+._1menu_right {
+    display: none;
+}
+._1menu_logo_img {
+    height: 26px;
+}
+._1menu {
+    padding: 12px 16px;
+}
+._mob_menu ._1menu_list {
+    display: block;
+}
+._1menu_button {
+    display: block;
+}
+/* menu */
+
+/* Home */
+._1banner_title {
+    font-size: 23px;
+}
+._1banner_text {
+    font-size: 14px;
+    max-width: 280px;
+    line-height: 23px;
+    margin: 8px auto 0;
+}
+._1banner_button_group {
+    max-width: 258px;
+    margin: 16px auto 0;
+}
+._1banner_button {
+    padding: 0 4px;
+}
+._1banner {
+    padding: 60px 0;
+}
+._artPlan {
+    padding: 40px 0;
+}
+._artPlan_con {
+    padding-top: 20px;
+}
+._artPlan_title {
+    font-size: 12px;
+}
+._artPlan_subtitle {
+    font-size: 25px;
+    margin: 2px 0 0;
+}
+._artPlan_des {
+    font-size: 14px;
+    line-height: 21px;
+    margin: 5px 0 0;
+}
+._artPlan_card {
+    padding-top: 12px;
+}
+._artPlan_card_title {
+    font-size: 16px;
+}
+._artPlan_card_text {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 5px 0 0;
+}
+._choose {
+    padding: 40px 0;
+}
+._choose_title {
+    font-size: 12px;
+}
+._choose_subtitle {
+    font-size: 24px;
+    margin: 7px 0 0px;
+}
+._choose_card {
+    margin-top: 22px;
+}
+._choose_card_icon i {
+    font-size: 40px;
+}
+._choose_card_title {
+    font-size: 16px;
+    margin: 2px 0 0;
+}
+._choose_card_details {
+    padding: 10px 15px 15px;
+    height: 85px;
+}
+._choose_card:hover ._choose_card_details {
+    height: 166px;
+}
+._artPlan_button {
+    margin-top: 25px;
+}
+._our_ser {
+    padding: 40px 0;
+}
+._our_ser_title {
+    font-size: 12px;
+}
+._our_ser_subtitle {
+    font-size: 25px;
+    margin: 2px 0 0;
+}
+._our_ser_card_icon {
+    height: 65px;
+    width: 65px;
+    margin: 0 auto 15px;
+}
+._our_ser_card_title {
+    font-size: 16px;
+}
+._our_ser_card_text {
+    font-size: 14px;
+    line-height: 22px;
+    margin: 6px 0 0;
+}
+._our_ser_card {
+    padding: 17px 9px 15px;
+    margin-top: 24px;
+}
+._looking_title {
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+._looking {
+    padding: 40px 0;
+}
+._1card {
+    margin-top: 24px;
+}
+._artPlan_pic {
+    margin-top: 34px;
+}
+._artPlan._artPlanTwo {
+    padding: 0 0 20px;
+}
+._work_card {
+    margin-top: 13px;
+}
+._work_card_title {
+    font-size: 16px;
+}
+._work_card_text {
+    font-size: 14px;
+    line-height: 22px;
+    margin: 6px 0 0;
+}
+/* Home */
 
 
 }

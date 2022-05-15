@@ -1687,16 +1687,16 @@ a{
     --color3: #54636E;
     --color4: #26323899;
     --color5: #565454;
-    --primary:#FF2C2A;
-    --primary-dark:#e60c08;
-    --primary-hover:#ff2e2aad;
-    --primary-light:rgba(255, 44, 42, 0.1);
+    --primary:#000000;
+    --primary-dark:#000000;
+    --primary-hover:#1d1c1cad;
+    --primary-light:rgba(0, 0, 0, 0.041);
     --secondary: #0D2332;
     --secondary-dark: #06121a;
     --color-secondary-hover: #06121a9d;
-    --hover: #FF2C2A;
-    --link: #FF2C2A;
-    --link-hover : #e60c08;
+    --hover: #292525;
+    --link: #000000;
+    --link-hover : #272626;
     /* Colors */
 
     /* Linear background */
