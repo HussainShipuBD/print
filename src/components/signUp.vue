@@ -4,7 +4,7 @@
             <!-- Banner -->
             <div class="_4banner">
                 <div class="_4banner_main">
-                    <h1 class="_4banner_title">Connectiver</h1>
+                    <h1 class="_4banner_title">Route Print</h1>
                     <p class="_4banner_text">Creating a conscious and safe community where human<br/> connection and new ideas can thrive</p>
                 </div>
             </div>

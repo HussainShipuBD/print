@@ -1549,7 +1549,7 @@ a{
     border: none;
     padding: 0 14px;
     color: #fff;
-    height: 53px;
+    height: 40px;
     transition: .2s all ease;
     background: var(--primary);
     border-radius: 0;
@@ -1557,7 +1557,7 @@ a{
     justify-content: center;
     line-height: 1;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 14px;
 }
 ._1btn:hover {
     background: var(--primary-dark);
@@ -1659,9 +1659,9 @@ a{
 }
 ._1label {
     color: var(--color2);
-    margin-bottom: 10px;
-    font-size: 15px;
-    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 500;
 }
 ._my_container {
     padding-left: 15px;
