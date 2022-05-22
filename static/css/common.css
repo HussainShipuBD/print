@@ -1640,12 +1640,12 @@ a{
 }
 ._1input {
     background: var(--bg);
-    width: 100%;
+    
     border-radius: 5px;
-    height: 50px;
-    padding: 13px 15px;
-    border: 1px solid var(--border-color2);
-    color: var(--color2);
+    
+    
+    
+    
 }
 ._1textarea {
     background: transparent;

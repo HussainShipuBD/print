@@ -6,6 +6,7 @@ import signUp from '@/components/signUp.vue'
 import _404 from '@/components/404.vue'
 import search from '@/components/search.vue'
 import singlePage from '@/components/singlePage.vue'
+import basket from '@/components/basket.vue'
 
 Vue.use(Router)
 
@@ -41,6 +42,11 @@ export default new Router({
       path: '/singlePage',
       name: 'singlePage',
       component: singlePage
+    },
+    {
+      path: '/basket',
+      name: 'basket',
+      component: basket
     },
    
   ]
