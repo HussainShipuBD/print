@@ -10,6 +10,38 @@
             </a>
           </div>
 
+          <div class="_product">
+            <p class="_product_title">Product <Icon type="ios-arrow-down" /></p>
+
+            <div class="_product_drop">
+              <ul class="_product_drop_list">
+                <!-- item -->
+                <li v-for="(item,index) in 4" :key="index">
+                  <a class="_product_drop_text" href="">Same Day Express Products <Icon type="ios-arrow-down" /></a>
+
+                  <ul class="_product_subdrop">
+                    <li>
+                      <a class="_product_subdrop_text" href="">Same Day Express</a>
+                    </li>
+                    <li>
+                      <a class="_product_subdrop_text" href="">Same Day Express</a>
+                    </li>
+                    <li>
+                      <a class="_product_subdrop_text" href="">Same Day Express</a>
+                    </li>
+                    <li>
+                      <a class="_product_subdrop_text" href="">Same Day Express</a>
+                    </li>
+                    <li>
+                      <a class="_product_subdrop_text" href="">Same Day Express</a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- item -->
+              </ul>
+            </div>
+          </div>
+
           <div class="_1menu_list">
             <ul class="_1menu_list_ul">
               <li class="_1menu_list_item">
@@ -104,7 +136,43 @@
           <div class="_1menu_right">
             <ul class="_1menu_right_icon">
               <li><Icon type="ios-search" /></li>
-              <li><Icon type="ios-cart" /></li>
+              <li>
+                <Icon type="ios-cart" />
+
+                <!-- Dropdown -->
+                <div class="_bas_drop">
+                  <div class="_bas_drop_top">
+                    <!-- Item -->
+                    <div class="_bas_drop_card" v-for="(item, index) in 3" :key="index">
+                      <div class="_bas_drop_card_left">
+                        <p class="_bas_drop_card_title">Glued Presentation Folders</p>
+                        <p class="_bas_drop_card_text">100, Oversized A4 Glued Presentation Folder, Single Sided, 350gsm Silk, Flat, Matt Lamination Front & Back, Glued Folder, None, N/A</p>
+                      </div>
+
+                      <div class="_bas_drop_card_right">
+                        <h1 class="_bas_drop_card_price">£130.75</h1>
+
+                        <p class="_bas_drop_card_close"><Icon type="close"></Icon></p>
+                      </div>
+                    </div>
+                    <!-- Item -->
+                  </div>
+
+                  <div class="_bas_drop_bottom">
+                    <div class="_bas_drop_bottom_left">
+                      <p class="_bas_drop_bottom_p">Sub Total <span>: £217.92</span></p>
+                      <p class="_bas_drop_bottom_p">Delivery <span>: £00.92</span></p>
+                      <p class="_bas_drop_bottom_p">VAT <span>: £45.92</span></p>
+                      <p class="_bas_drop_bottom_p">Total (inc.VAT) <span>: £244.92</span></p>
+                    </div>
+
+                    <div class="_bas_drop_bottom_right">
+                      <button class="_1btn">Basket</button>
+                    </div>
+                  </div>
+                </div>
+                <!-- Dropdown -->
+              </li>
             </ul>
 
             <ul style="display:none" class="_1menu_list_ul">

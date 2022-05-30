@@ -7,6 +7,7 @@ import _404 from '@/components/404.vue'
 import search from '@/components/search.vue'
 import singlePage from '@/components/singlePage.vue'
 import basket from '@/components/basket.vue'
+import dashbord from '@/components/dashbord.vue'
 
 Vue.use(Router)
 
@@ -47,6 +48,11 @@ export default new Router({
       path: '/basket',
       name: 'basket',
       component: basket
+    },
+    {
+      path: '/dashbord',
+      name: 'dashbord',
+      component: dashbord
     },
    
   ]
