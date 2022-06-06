@@ -4,10 +4,11 @@ import index from '@/components/index.vue'
 import logIn from '@/components/logIn.vue'
 import signUp from '@/components/signUp.vue'
 import _404 from '@/components/404.vue'
-import search from '@/components/search.vue'
 import singlePage from '@/components/singlePage.vue'
 import basket from '@/components/basket.vue'
 import dashbord from '@/components/dashbord.vue'
+import orederHistory from '@/components/orederHistory.vue'
+import checkout from '@/components/checkout.vue'
 
 Vue.use(Router)
 
@@ -35,11 +36,6 @@ export default new Router({
       component: _404
     },
     {
-      path: '/search',
-      name: 'search',
-      component: search
-    },
-    {
       path: '/singlePage',
       name: 'singlePage',
       component: singlePage
@@ -53,6 +49,16 @@ export default new Router({
       path: '/dashbord',
       name: 'dashbord',
       component: dashbord
+    },
+    {
+      path: '/orederHistory',
+      name: 'orederHistory',
+      component: orederHistory
+    },
+    {
+      path: '/checkout',
+      name: 'checkout',
+      component: checkout
     },
    
   ]

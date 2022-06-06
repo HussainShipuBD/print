@@ -13,7 +13,7 @@
           <div class="_product">
             <p class="_product_title">Product <Icon type="ios-arrow-down" /></p>
 
-            <div class="_product_drop">
+            <div style="display:none" class="_product_drop">
               <ul class="_product_drop_list">
                 <!-- item -->
                 <li v-for="(item,index) in 4" :key="index">

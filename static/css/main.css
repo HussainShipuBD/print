@@ -7,6 +7,8 @@
     6.Single page
     7.Basket
     8.dashbord
+    9.Order
+    10.Checkout
 
 
 
@@ -1336,12 +1338,337 @@ right: 0;}
 ._dashbord_card_title{font-size: 17px;color: var(--color2);margin: 0 0 11px;display: inline-block;}
 ._dashbord_card_title:hover{color: var(--link);text-decoration: underline;transition: .2s  all ease;}
 ._dashbord_card_text{font-size: 15px;line-height: 22px;}
-.{}
-.{}
-.{}
-.{}
-.{}
 /*======= 8.dashbord end ======*/
+
+/*======= 9.Order ======*/
+._order{
+    margin: 30px 0 50px;
+    background: #fff;
+    padding: 30px;
+}
+._oreder_title{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 15px;
+    color: var(--color2);
+}
+._order_filter{
+    display: flex;
+    align-items: center;
+    background: var(--primary-light);
+    padding: 15px 18px;
+    margin: 0 0 36px;
+}
+._order_filter_left{
+    flex: 1 1;
+    display: flex;
+    align-items: center;
+}
+._order_filter_text{
+    font-size: 16px;
+    font-weight: 500;
+    flex: 0 0 auto;
+}
+._order_filter_input{
+    flex: 0 0 auto;
+    padding: 00 12px 0;
+}
+._order_filter_int{
+    border: 1px solid var(--primary);
+    padding: 7px 23px;
+    color: var(--color);
+    background: #fff;
+    cursor: pointer;
+}
+._order_filter_vs{
+    flex: 0 0 10px;
+    text-align: center;
+}
+._order_filter_right{}
+._order_filter_right select{
+    padding: 8.5px 17px;
+    background: #fff;
+}
+._order_table:last-child{
+    border-bottom: none;
+    padding-bottom: 0;
+}
+._order_table_main{}
+._order_table_top{
+    display: flex;
+    align-items: center;
+    margin: 0 0 2px;
+}
+._order_table_one{
+    flex: 0 0 125px;
+    padding: 0 6px 0  00;
+}
+._order_table_th{
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--color);
+}
+._order_table_two{
+    flex: 0 0 120px;
+    overflow: hidden;
+    padding: 0 6px;
+}
+._order_table_three{
+    flex: 0 0 124px;
+    overflow: hidden;
+    padding: 0 6px;
+}
+._order_table_four{
+    flex: 1 1;
+    overflow: hidden;
+}
+._order_table{
+    border-bottom: 1px solid var(--border-color2);
+    padding: 20px 0;
+}
+._order_table_item_top{
+    display: flex;
+    flex: 1 1;
+    overflow: hidden;
+    cursor: pointer;
+}
+._order_table_left{
+    flex: 1 1;
+    overflow: hidden;
+    display: flex;
+    /* align-items: center; */
+    padding: 0 18px 0 0;
+    flex-wrap: wrap;
+}
+._order_table_left_item{
+    flex: 0 0 100%;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    border-bottom: 1px solid var(--border-color2);
+    padding: 30px 0;
+}
+._order_table_left_item:last-child{
+    border-bottom: none;
+    padding-bottom: 0;
+}
+._order_table_no{
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--color3);
+}
+._order_table_no_text{
+    font-size: 12px;
+    line-height: 17px;
+    color: var(--color3);
+    margin: 4px 0 0;
+}
+._order_table_status{
+    font-size: 14px;
+    color: var(--color3);
+}
+._order_table_status._dispatched{
+    color: green;
+}
+._order_table_status._cenceled{
+    color: blue;
+}
+._order_table_date{
+    font-size: 15px;
+    color: var(--color3);
+}
+._order_table_addrress{
+    font-size: 14px;
+    color: var(--color3);
+}
+._order_table_right{
+    flex: 0 0 270px;
+    overflow: hidden;
+    text-align: right;
+    /* background: var(--primary-light); */
+}
+._order_table_icon{
+    display: inline-block;
+    color: var(--color2);
+    font-size: 30px;
+    margin: 14px 7px 0 0;
+}
+._order_table_icon i{}
+._order_table_item_bottom{
+    display: none;
+}
+._active._order_table ._order_table_right{
+    background: var(--primary-light);
+}
+._active._order_table ._order_table_item_bottom{
+    display: flex;
+}
+._order_table_first{
+    flex: 0 0 auto;
+    font-size: 16px;
+    cursor: pointer;
+    color: var(--color3);
+    text-decoration: underline;
+    transition: .2s all ease;
+}
+._order_table_first:hover{
+    color: var(--color2);
+}
+._order_table_card{
+    flex: 1 1;
+    overflow: hidden;
+    padding: 0 26px 0 68px;
+}
+._order_table_card_title{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--color2);
+}
+._order_table_card_des{
+    font-size: 14px;
+    color: var(--color3);
+    margin: 9px 0 0;
+}
+._order_table_card_date{
+    font-size: 14px;
+    color: var(--color3);
+    margin: 8px 0 0;
+}
+._order_table_card_date span{
+    font-weight: bold;
+    color: var(--color2);
+}
+._order_table_card_price{
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--color2);
+    margin: 11px 0 0;
+}
+._order_table_button{
+    flex: 0 0 208px;
+}
+._order_table_button button{}
+._order_table_button button:first-child{
+    margin-bottom: 10px;
+}
+._order_table_details{
+    text-align: left;
+    padding: 9px 18px 25px;
+}
+._order_table_details_item{
+    font-size: 13px;
+    color: var(--color2);
+    line-height: 25px;
+}
+._order_table_details_price span{font-weight: bold;}
+._order_table_details_price{
+    font-size: 23px;
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    padding: 9px 0px;
+    margin: 12px 0 0;
+    color: var(--color2);
+    font-weight: 400;
+}
+._order_dispatched{
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--color2);
+    margin: 22px 0 12px;
+}
+/*======= 9.Order end ======*/
+
+/*======= 10.Checkout ======*/
+._checkout{
+    padding: 30px 0 50px;
+}
+._checkout_title{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 0 15px;
+    color: var(--color2);
+}
+._checkout_left{
+    background: #fff;
+    padding: 25px 20px;
+}
+._checkout_left_item{}
+._checkout_left_title{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 14px;
+}
+._1group{
+    margin-bottom: 20px;
+}
+._1label{}
+._1button_group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+._1button_group_back{
+    font-size: 14px;
+    font-weight: bold;
+    flex: 0 0 auto;
+    margin-right: 20px;
+    cursor: pointer;
+}
+._1button_group button{
+    min-width: 110px;
+}
+._checkout_right{
+    background: #fff;
+    padding: 20px 18px;
+}
+._checkout_subtotal{
+    font-size: 14px;
+    color: var(--color2);
+    line-height: 22px;
+    padding-bottom: 10px;
+}
+._checkout_subtotal span{
+    float: right;
+}
+._checkout_total{
+    font-size: 24px;
+    color: var(--color2);
+    border-top: 1px solid var(--border-color2);
+    padding: 10px 0 0;
+}
+._checkout_total span{
+    float: right;
+}
+._checkout_booklets{
+    color: var(--color3);
+    font-size: 14px;
+    margin: 4px 0 0;
+}
+._checkout_bookle_x{
+    color: var(--color3);
+    font-size: 14px;
+    font-weight: bold;
+    margin: 6px 0 0;
+}
+._checkout_date_main{
+    margin: 28px 0 0;
+}
+._checkout_date_title{
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--color2);
+}
+._checkout_date{
+    font-size: 14px;
+    color: var(--color3);
+    margin: 5px 0 0;
+}
+._del_add{}
+._input_button{}
+._input_button i{}
+.{}
+/*======= 10.Checkout end ======*/
 
 
 
