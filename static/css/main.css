@@ -1294,6 +1294,17 @@ right: 0;}
     font-size: 12px;
     background-color: transparent;
 }
+._1textarea {
+    width: 100%;
+    border: 1px solid var(--border-color2);
+    line-height: 24px;
+    padding: 9px 12px;
+    color: #000000;
+    font-size: 14px !important;
+    outline: none;
+    font-size: 12px;
+    background-color: transparent;
+}
 ._cart_details_top span{
     float: right;
 }
@@ -1665,18 +1676,134 @@ right: 0;}
     margin: 5px 0 0;
 }
 ._del_add{}
-._input_button{}
-._input_button i{}
+._input_button{
+    position: relative;
+    padding: 16px 0;
+}
+._input_button i{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5px;
+    cursor: pointer;
+    font-size: 22px;
+    color: var(--color2);
+    padding: 7px 7px;
+}
+._del_add_main{}
+._del_add_card._active{
+    border: 1px solid var(--primary);
+}
+._del_add_card{
+    border: 1px solid var(--border-color2);
+    position: relative;
+    height: 100%;
+    cursor: pointer;
+}
+._del_add_card._active ._del_add_card_ceheck{
+    display: block;
+}
+._del_add_card._active ._del_add_card_title{
+    border-bottom: 1px solid var(--primary);
+    background: var(--primary);
+    color: #fff;
+}
+._del_add_card_title{
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--color2);
+    border-bottom: 1px solid var(--border-color2);
+    padding: 16px 18px;
+}
+._del_add_card_details{
+    padding: 10px 18px;
+}
+._del_add_card_text{
+    font-size: 14px;
+    color: var(--color3);
+    line-height: 27px;
+}
+._del_add_card_ceheck{
+    position: absolute;
+    font-size: 28px;
+    color: #fff;
+    top: 11px;
+    right: 9px;
+    display: none;
+}
+._del_add_card_item{
+    margin-bottom: 24px;
+}
+._del_add_label{}
+._del_add_label span{
+    float: right;
+    cursor: pointer;
+    text-decoration: underline;
+    color: var(--color3);
+    transition: .2s all ease;
+}
+._del_add_label span:hover{
+    color: var(--color2);
+}
+._pagination{
+    margin-bottom: 25px;
+    text-align: center;
+}
+._note{
+    font-size: 12px;
+    color: var(--color3);
+}
+._method_item{
+    border: 1px solid var(--border-color2);
+    margin-bottom: 17px;
+}
+._method_item_title{
+    font-size: 16px;
+    color: var(--color2);
+    padding: 18px 18px;
+    position: relative;
+    cursor: pointer;
+}
+
+._method_item_title i{
+    position: absolute;
+    font-size: 31px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    color: var(--color2);
+}
+._method_item_title i:nth-last-child(2){}
+._method_item_title i:last-child{
+    display: none;
+}
+._method_item._active ._method_item_title i:nth-last-child(2){
+    display: none;
+}
+._method_item._active ._method_item_title i:last-child{
+    display: block;
+}
+._method_item._active ._method_item_title i{
+    display:block;
+    color: #fff;
+}
+._method_item_main{
+    padding: 18px 18px;
+    display: none;
+    border-top: 1px solid var(--border-color2);
+}
+._method_item._active{
+    border: 1px solid var(--primary);
+}
+._method_item._active ._method_item_main{
+    display: block;
+    border-top: 1px solid var(--primary);
+}
+._method_item._active ._method_item_title{
+    background: var(--primary);
+    color: #fff;
+}
+.{}
+.{}
 .{}
 /*======= 10.Checkout end ======*/
-
-
-
-
-
-
-
-
-
-
-
