@@ -9,6 +9,8 @@ import basket from '@/components/basket.vue'
 import dashbord from '@/components/dashbord.vue'
 import orederHistory from '@/components/orederHistory.vue'
 import checkout from '@/components/checkout.vue'
+import setting from '@/components/setting.vue'
+import preferences from '@/components/preferences.vue'
 
 Vue.use(Router)
 
@@ -59,6 +61,16 @@ export default new Router({
       path: '/checkout',
       name: 'checkout',
       component: checkout
+    },
+    {
+      path: '/setting',
+      name: 'setting',
+      component: setting
+    },
+    {
+      path: '/preferences',
+      name: 'preferences',
+      component: preferences
     },
    
   ]

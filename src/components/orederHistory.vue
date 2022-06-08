@@ -3,7 +3,7 @@
         <div class="_1content">
             <div class="container">
                 <div class="_order">
-                    <h1 class="_oreder_title">Your Dashbord</h1>
+                    <h1 class="_oreder_title">Order history</h1>
 
                     <div class="_order_filter">
                         <div class="_order_filter_left">

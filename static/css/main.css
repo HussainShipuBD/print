@@ -9,6 +9,8 @@
     8.dashbord
     9.Order
     10.Checkout
+    11.Setting
+    12.Preferances
 
 
 
@@ -303,10 +305,8 @@ right: 0;padding: 21px 18px;display: none;}
 ._product_subdrop_text{color: var(--color3);
     padding: 7px 19px;
     display: block;
-    transition: .2s all ease;}
-.{}
-.{}
-.{}
+    transition: .2s all ease;
+}
 /*======= 1.Menu end ======*/
 
 /*======= 2.Home ======*/
@@ -1803,7 +1803,111 @@ right: 0;}
     background: var(--primary);
     color: #fff;
 }
-.{}
-.{}
-.{}
 /*======= 10.Checkout end ======*/
+
+/*======= 11.Setting ======*/
+._setting{
+    background: #fff;
+    margin: 30px 0 50px;
+    padding: 30px;
+}
+._setting_title{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 0 15px;
+    color: var(--color2);
+}
+._setting_item {
+    margin-bottom: 40px;
+}
+._setting_top{
+    display: flex;
+    align-items: center;
+    margin: 0 0 31px;
+}
+._setting_item_title{
+    font-size: 18px;
+    font-weight: bold;
+    flex: 1 1;
+    overflow: hidden;
+}
+._setting_icon_list{flex: 0 0 auto;}
+._setting_icon_list li:hover{
+    color: var(--color2);
+}
+._setting_icon_list li {
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 15px;
+    text-decoration: underline;
+    color: var(--color3);
+    cursor: pointer;
+}
+._setting_icon_list li i{}
+._setting_details{}
+._setting_details_item{
+    display: flex;
+    margin-bottom: 15px;
+}
+._setting_details_title{
+    flex: 00 0 155px;
+    font-size: 15px;
+    color: var(--color3);
+    padding: 0 10px 0 0;
+}
+._setting_details_val{
+    color: var(--color2);
+    font-size: 15px;
+    font-weight: bold;
+}
+._my_card_main{
+    display: flex;
+    flex-wrap: wrap;
+}
+._my_card {
+    flex: 0 0 200px;
+    border: 1px solid var(--border-color2);
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 9px 15px;
+    text-align: center;
+}
+._my_card_text{
+    font-size: 15px;
+    color: var(--color2);
+    line-height: 28px;
+}
+._update_pre:hover{
+    color: var(--color2);
+}
+._update_pre{
+    font-size: 14px;
+    color: var(--color3);
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: underline;
+}
+/*======= 11.Setting end ======*/
+
+/*======= 12.Preferances ======*/
+._preferances{
+    background: #fff;
+    margin: 30px 0 50px;
+    padding: 30px;
+}
+._preferances_title{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 0 15px;
+    color: var(--color2);
+}
+._communication{
+    font-size: 17px;
+    color: var(--color2);
+    line-height: 22px;
+}
+.{}
+.{}
+.{}
+.{}
+/*======= 12.Preferances end ======*/
