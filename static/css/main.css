@@ -11,6 +11,7 @@
     10.Checkout
     11.Setting
     12.Preferances
+    13.Addressbook
 
 
 
@@ -1906,8 +1907,48 @@ right: 0;}
     color: var(--color2);
     line-height: 22px;
 }
-.{}
-.{}
-.{}
-.{}
 /*======= 12.Preferances end ======*/
+
+/*======= 13.Addressbook ======*/
+._addressBook._active ._addressBook_remove{
+    border-top: 1px solid var(--primary);
+}
+._addressBook_remove{
+    border-top: 1px solid var(--border-color2);
+    font-size: 14px;
+    padding: 16px 18px;
+    flex: 0 0 auto;
+}
+._addressBook_remove span:hover{
+    color: var(--color2);
+}
+._addressBook_remove span{
+    color: var(--color3);
+    text-decoration: underline;
+    transition: .2s all  ease;
+}
+._addressBook{
+    display: flex;
+    flex-direction: column;
+}
+._addressBook ._del_add_card_title{
+    flex: 0 0 auto;
+}
+._addressBook ._del_add_card_details{
+    flex: 1 1;
+    overflow: hidden;
+}
+._addressBook_main{}
+._addressBook_top{
+    display: flex;
+    align-items: center;
+}
+._addressBook_top ._del_add_label{
+    flex: 1 1;
+    overflow: hidden;
+}
+._addressBook_top ._input_button{flex: 0 0 477px;}
+.{}
+.{}
+.{}
+/*======= 13.Addressbook ======*/

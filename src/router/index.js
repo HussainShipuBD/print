@@ -11,6 +11,7 @@ import orederHistory from '@/components/orederHistory.vue'
 import checkout from '@/components/checkout.vue'
 import setting from '@/components/setting.vue'
 import preferences from '@/components/preferences.vue'
+import addressbook from '@/components/addressbook.vue'
 
 Vue.use(Router)
 
@@ -71,6 +72,11 @@ export default new Router({
       path: '/preferences',
       name: 'preferences',
       component: preferences
+    },
+    {
+      path: '/addressbook',
+      name: 'addressbook',
+      component: addressbook
     },
    
   ]
