@@ -12,6 +12,7 @@
     11.Setting
     12.Preferances
     13.Addressbook
+    14.Process
 
 
 
@@ -1948,7 +1949,72 @@ right: 0;}
     overflow: hidden;
 }
 ._addressBook_top ._input_button{flex: 0 0 477px;}
-.{}
-.{}
-.{}
 /*======= 13.Addressbook ======*/
+
+/*======= 14.Process ======*/
+._order_table_left_item_left {
+    flex: 0 0 239px;
+    text-align: center;
+}
+._order_table_pic {
+    margin-bottom: 15px;
+}
+._order_table_left_item._process_card{
+    align-items: flex-start;
+}
+._order_table_left_item._process_card ._order_table_card ._order_table_button {
+    padding: 9px 0 0;
+}
+._order_table_left_item._process_card ._order_table_card {
+    flex: 1 1;
+    overflow: hidden;
+    padding: 0 20px;
+}
+._order_table_img{}
+._invoiceTable_item_title_main {
+    padding: 0 0 10px;
+}
+._invoiceTable_item {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid var(--border-color2);
+    padding: 17px 0;
+}
+._order_table_five{
+    flex: 0 0 147px;
+    overflow: hidden;
+    padding: 0 6px;
+    text-align: center;
+}
+._order_table_six{
+    flex: 0 0 156px;
+    overflow: hidden;
+    padding: 0 6px;
+    text-align: right;
+}
+._order_table_seven{}
+._order_table_total{
+    font-size: 21px;
+    color: var(--color2);
+    font-weight: bold;
+}
+._order_table_download_icon{
+    text-align: center;
+}
+._order_table_download_icon i:hover{
+    color: var(--color2);
+}
+._order_table_download_icon i{
+    font-size: 30px;
+    color: var(--color3);
+    transition: .2s all ease;
+}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+/*======= 14.Process ======*/

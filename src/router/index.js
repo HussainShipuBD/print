@@ -7,11 +7,13 @@ import _404 from '@/components/404.vue'
 import singlePage from '@/components/singlePage.vue'
 import basket from '@/components/basket.vue'
 import dashbord from '@/components/dashbord.vue'
-import orederHistory from '@/components/orederHistory.vue'
+import orderHistory from '@/components/orderHistory.vue'
 import checkout from '@/components/checkout.vue'
 import setting from '@/components/setting.vue'
 import preferences from '@/components/preferences.vue'
 import addressbook from '@/components/addressbook.vue'
+import process from '@/components/process.vue'
+import downloadinvoice from '@/components/downloadinvoice.vue'
 
 Vue.use(Router)
 
@@ -54,9 +56,9 @@ export default new Router({
       component: dashbord
     },
     {
-      path: '/orederHistory',
-      name: 'orederHistory',
-      component: orederHistory
+      path: '/orderHistory',
+      name: 'orderHistory',
+      component: orderHistory
     },
     {
       path: '/checkout',
@@ -77,6 +79,16 @@ export default new Router({
       path: '/addressbook',
       name: 'addressbook',
       component: addressbook
+    },
+    {
+      path: '/process',
+      name: 'process',
+      component: process
+    },
+    {
+      path: '/downloadinvoice',
+      name: 'downloadinvoice',
+      component: downloadinvoice
     },
    
   ]
